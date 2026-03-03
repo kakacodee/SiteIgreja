@@ -9,6 +9,18 @@
     padding: 0;
     margin: 2rem 0 0 0;
 }
+.download{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8b0000;
+    color: #f7e9c4;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-left: 47.7%;
+}
 .comunidades-lista li {
     text-align: center;
     min-width: 220px;
@@ -614,4 +626,19 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     margin-top: 18rem;
+}
+.img-igrejas{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.img-igrejas:hover{
+    display: flex;
+    width: 120%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
 }
