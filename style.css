@@ -83,6 +83,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f7e9c4;
+    flex-direction: column;
+    height: 100%;
+}
+main{
+    flex:1;
 }
 #topo{
     width: 100%;
@@ -303,6 +308,16 @@ margin: 5px 0;
 
 /* Responsividade para tablets */
 @media (max-width: 1024px) {
+    footer {
+    position: relative;
+    background-color: #8b0000;
+    color: #f7e9c4;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-top: 60rem;
+}
     #topo {
         flex-direction: column;
         min-height: 7rem;
@@ -481,9 +496,18 @@ margin: 5px 0;
 
 /* Responsividade para celulares */
 @media (max-width: 600px) {
+
+    footer {
+        width: 110%;
+        position: relative !important;
+    bottom: auto !important;
+    margin-top: 140vh !important;
+    
+    }
     body {
         font-size: 90%;
         text-align: center;
+
     }
     #topo {
         flex-direction: column;
@@ -619,6 +643,7 @@ margin: 5px 0;
     }
 }
 footer {
+    position: relative;
     background-color: #8b0000;
     color: #f7e9c4;
     text-align: center;
