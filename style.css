@@ -1,3 +1,19 @@
+body{
+     margin: 0;
+    min-height: 100vh;
+
+    background-image: url("img/Cena.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(247, 198, 170, 0.562); /* escurece levemente */
+    z-index: -2;
+}
 /* Comunidades - nome e endereço juntos */
 .comunidades-lista {
     display: flex;
@@ -153,7 +169,7 @@ margin: 5px 0;
     margin-right: 67%;
 }
 .titulo{
-    color: #C9A646;
+    color: #584309;
     text-align: center;
     font-size: 3rem;
     margin-top: 3%;
@@ -252,7 +268,7 @@ margin: 5px 0;
 .Comunidades{
     width: 100%;
     height: 20rem;
-    background-color: #f7e9c4;
+
 }
 .Comunidades ul{
     
