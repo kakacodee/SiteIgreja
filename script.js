@@ -18,6 +18,7 @@ function copiarTexto() {
 
   // --- SLIDE PATROCINADORES ---
   const patrocinadoresImgs = [
+    "imgPatrocinadores/KJ(1).png",
     "imgPatrocinadores/20260507_132328331_iOS.png",
     "imgPatrocinadores/20260508_202756730_iOS.jpg",
     "imgPatrocinadores/20260508_210838035_iOS.png",
@@ -47,7 +48,8 @@ function copiarTexto() {
     "imgPatrocinadores/20260508_222958365_iOS.png",
     "imgPatrocinadores/20260508_223003636_iOS.png",
     "imgPatrocinadores/20260508_223009168_iOS.png",
-    "imgPatrocinadores/20260508_223015274_iOS.png"
+    "imgPatrocinadores/20260508_223015274_iOS.png",
+    "imgPatrocinadores/KJ.png"
   ];
 
   let slideIndex = 0;
@@ -73,5 +75,5 @@ function copiarTexto() {
     // Opcional: auto-slide
     setInterval(() => {
       showSlidePatrocinadores(slideIndex + 1);
-    }, 4000);
+    }, 2000);
   });
